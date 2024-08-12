@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@100;200;300;400;500;600;800&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+body {
+  font-family: "Manrope", sans-serif;
+}
+.card {
+  height: 100%;
+  background-color: #202733;
+  display: grid;
+  place-items: center;
+}
+.container {
+  /* height: 100%; */
+  width: 540px;
+  padding: 10px;
+  min-height: 332px;
+  background: #313a48;
+  box-shadow: 30px 50px 80px rgba(0, 0, 0, 0.100202);
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+
+span {
+  font-weight: 800;
+  font-size: 13px;
+  line-height: 18px;
+  color: #53ffaa;
+  text-align: center;
+  letter-spacing: 4.08571px;
+  margin-top: 48px;
+}
+h1 {
+  font-size: 28px;
+  line-height: 38px;
+  text-align: center;
+  letter-spacing: -0.3px;
+  margin-top: 24px;
+
+  color: #cee3e9;
+}
+.img-card {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background: #53ffaa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: -32px;
+}
+.img-card:active {
+  background: #53ffaa;
+  box-shadow: 0px 0px 40px #53ffaa;
+}
+.author {
+  margin-top: 10px;
+  font-style: italic;
+  color: #cee3e9;
+  display: inline-block;
+  width: 100%;
+  text-align: right;
+}
